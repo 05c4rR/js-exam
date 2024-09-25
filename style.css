@@ -1,0 +1,84 @@
+body {
+    background-color: burlywood;
+}
+/* Style pour le cadre de titres */
+.titleContainer {
+    margin: 25px 0px;
+    padding: 15px;
+    background-color: snow;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 12px  12px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Style général du formulaire, input, button et label */
+.form {
+    background-color: snow;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    box-shadow: 12px  12px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.input{
+    background-color: snow;
+    margin-bottom: 25px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px dotted black;
+}
+
+.register {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 25vh;
+    margin: auto;
+    background-color: darksalmon;
+    box-shadow: 5px  5px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.register:hover {
+    background-color: tomato;
+}
+
+.label {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 3px;
+    padding-left: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: start;
+    font-size: 14px;
+    color: red;
+    padding-left: 25px;
+}
+
+/* Message de success et d'erreur */
+.successMsg {
+    background-color: lightgreen;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.errorMsg {
+    background-color: lightcoral;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* Petit style custom pour centrer le loader dans le formulaire */
+.load {
+    display: block;
+    margin: 20px auto;
+}
