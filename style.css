@@ -3,7 +3,8 @@ body {
 }
 /* Style pour le cadre de titres */
 .titleContainer {
-    margin: 25px 0px;
+    width: 100vh;
+    margin: 25px auto;
     padding: 15px;
     background-color: snow;
     border: 1px solid black;
